@@ -24,7 +24,6 @@ class Database {
                     title VARCHAR(255),
                     description TEXT,
                     posts INT,
-                    followers INT,
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
             `);

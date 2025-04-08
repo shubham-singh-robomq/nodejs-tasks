@@ -26,7 +26,6 @@ const main = async () => {
         console.log(`Title: ${blogInfo.title}`);
         console.log(`Description: ${blogInfo.description}`);
         console.log(`Total Posts: ${blogInfo.posts}`);
-        console.log(`Followers: ${blogInfo.followers}`);
 
         // Create database schema
         console.log('\nCreating database schema...');
@@ -35,7 +34,6 @@ const main = async () => {
             title: blogInfo.title,
             description: blogInfo.description,
             posts: blogInfo.posts,
-            followers: blogInfo.followers
         });
 
         // Fetch and save images
