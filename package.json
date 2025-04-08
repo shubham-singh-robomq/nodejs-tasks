@@ -1,12 +1,19 @@
 {
-  "name": "nodejs-tasks",
+  "name": "tumblr-blog-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A program to fetch and store Tumblr blog information and images",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "inquirer": "^9.2.0"
+  }
 }
